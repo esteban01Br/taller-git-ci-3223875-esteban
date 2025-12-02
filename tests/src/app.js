@@ -3,12 +3,16 @@ function suma(a, b) {
 }
 
 console.log("App lista");
-
+suggestion
 function agregarItem(texto) {
   const lista = document.getElementById("lista");
   const li = document.createElement("li");
+
+  li.textContent = texto;
   lista.appendChild(li);
 
+  console.log("Item agregado:", texto);
+}
   // Texto dentro del <li>
   li.textContent = texto;
 
