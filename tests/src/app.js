@@ -9,9 +9,8 @@ function agregarItem(texto) {
   const li = document.createElement("li");
   li.textContent = texto;
   lista.appendChild(li);
-  console.log("funcion agregarItem listaa");
-  
-}
+  console.log("funcion agregarItem lista");
+} 
 
 module.exports = { suma, agregarItem };
 

@@ -1,2 +1,20 @@
+# Ignorar dependencias
 node_modules
+
+# Build y dist
 dist
+build
+
+# Archivos de configuración
+package-lock.json
+
+# Archivos generados
+coverage
+*.min.js
+
+# Ignorar el repositorio de git
+.git
+
+# Si usas env
+.env
+.env.*.local
