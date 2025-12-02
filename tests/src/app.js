@@ -4,4 +4,12 @@ function suma(a, b) {
 
 console.log("App lista");
 
-module.exports = { suma };
+function agregarItem(texto) {
+  const lista = document.getElementById("lista");
+  const li = document.createElement("li");
+  li.textContent = texto;
+  lista.appendChild(li);
+}
+
+module.exports = { suma, agregarItem };
+
